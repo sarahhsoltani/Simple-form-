@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Form Js</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <img class="img" src="./undraw_mobile_login_ikmv.svg" />
+      <!-- username -->
+      <div class="field-name">
+        <i class="fas fa-user"></i>
+        <input type="text " placeholder="username" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+
+      <!-- email -->
+      <div class="field-email innactive">
+        <i class="fas fa-envelope-square"></i>
+        <input type="email" placeholder="email" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <!-- password -->
+      <div class="field-password innactive">
+        <i class="fas fa-key"></i>
+        <input type="password" placeholder="password" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <!-- finish -->
+      <div class="field-finish innactive">
+        <i class="fas fa-heart"></i>
+        <p>thank you</p>
+        <i class="fas fa-heart"></i>
+      </div>
+    </form>
+    <!------------- Script js  -------->
+    <script src="./main.js"></script>
+  </body>
+</html>
